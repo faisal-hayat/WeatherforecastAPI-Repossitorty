@@ -14,7 +14,7 @@
 - Needs to be registered in **_program.cs_**
 
 ```C#
-
+builder.Services.AddScoped<IWeatherForecastService, WeatherForecastService>();
 ```
 
 --- ---
